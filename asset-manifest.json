@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/personal-portfolio/static/css/main.2f52ea8a.css",
+    "main.js": "/personal-portfolio/static/js/main.18a9cc26.js",
+    "static/js/787.fb771931.chunk.js": "/personal-portfolio/static/js/787.fb771931.chunk.js",
+    "static/media/spotify.png": "/personal-portfolio/static/media/spotify.d8f921bc5c3c13a54ae6.png",
+    "static/media/budget-app.png": "/personal-portfolio/static/media/budget-app.d241ac67f5f9410d9275.png",
+    "static/media/profile-pic.jpg": "/personal-portfolio/static/media/profile-pic.b79bc605d5558e112fa9.jpg",
+    "static/media/quote.png": "/personal-portfolio/static/media/quote.5dfd271c62943a13daa1.png",
+    "static/media/Ubuntu-Light.ttf": "/personal-portfolio/static/media/Ubuntu-Light.c2bf1bb61db6c8149ae8.ttf",
+    "static/media/Ubuntu-Medium.ttf": "/personal-portfolio/static/media/Ubuntu-Medium.90c045b7547db9275807.ttf",
+    "static/media/Montserrat-Medium.ttf": "/personal-portfolio/static/media/Montserrat-Medium.e2d60bc49517598c0ce8.ttf",
+    "static/media/Calculator.png": "/personal-portfolio/static/media/Calculator.05a97a79bc6f4fb9f547.png",
+    "static/media/Stats-Calculator.png": "/personal-portfolio/static/media/Stats-Calculator.783ed1edca8a8202f807.png",
+    "static/media/mongodb-logo.png": "/personal-portfolio/static/media/mongodb-logo.d2b53e9b07cc23ac6e84.png",
+    "static/media/weather-app.png": "/personal-portfolio/static/media/weather-app.5cea60fb95aa11cc5bdf.png",
+    "static/media/d3-logo.png": "/personal-portfolio/static/media/d3-logo.09471726afb0538e270c.png",
+    "static/media/snake.png": "/personal-portfolio/static/media/snake.f61fd91f51021a0db964.png",
+    "static/media/react-logo.png": "/personal-portfolio/static/media/react-logo.80045de70681e3171446.png",
+    "static/media/Boogaloo-Regular.ttf": "/personal-portfolio/static/media/Boogaloo-Regular.c9cf5bab01eaef3e2336.ttf",
+    "static/media/bootstrap-logo.png": "/personal-portfolio/static/media/bootstrap-logo.7f27991223a4cb9fcba6.png",
+    "static/media/sql-logo.png": "/personal-portfolio/static/media/sql-logo.73aa3b701324da359ae5.png",
+    "static/media/java-logo.png": "/personal-portfolio/static/media/java-logo.b9a6696fd4799d7cb4c6.png",
+    "static/media/docker.png": "/personal-portfolio/static/media/docker.b6f6810eb0a1ac91daab.png",
+    "static/media/jira.png": "/personal-portfolio/static/media/jira.4ed1e56294cedcad4494.png",
+    "static/media/redux-logo.svg": "/personal-portfolio/static/media/redux-logo.0e4fb1c819ac4c060c92343147d4ccf7.svg",
+    "static/media/html5.svg": "/personal-portfolio/static/media/html5.02c11ebc3bf614b206106cbe9cba90fd.svg",
+    "index.html": "/personal-portfolio/index.html",
+    "main.2f52ea8a.css.map": "/personal-portfolio/static/css/main.2f52ea8a.css.map",
+    "main.18a9cc26.js.map": "/personal-portfolio/static/js/main.18a9cc26.js.map",
+    "787.fb771931.chunk.js.map": "/personal-portfolio/static/js/787.fb771931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f52ea8a.css",
+    "static/js/main.18a9cc26.js"
+  ]
+}
