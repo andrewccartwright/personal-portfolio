@@ -45,7 +45,7 @@ const imgs: {src: string, alt: string, label: string}[] = [
         src: htmlLogo, alt: 'HTML Logo', label: 'HTML5'
     },
     {
-        src: jQueryLogo, alt: 'jQuery Logo', label: 'JQuery'
+        src: jQueryLogo, alt: 'jQuery Logo', label: 'jQuery'
     },
     {
         src: bootstrapLogo, alt:'Bootstrap Logo', label:'Bootstrap'
