@@ -1,6 +1,7 @@
 {
-  "name": "ts-practice",
+  "name": "personal-portfolio",
   "version": "0.1.0",
+  "homepage": "http://andrewchatch.github.io/personal-portfolio/",
   "private": true,
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.2.0",
