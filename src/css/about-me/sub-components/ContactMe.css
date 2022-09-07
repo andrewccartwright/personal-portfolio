@@ -1,0 +1,18 @@
+#contact-me-section {
+    width: 60vw;
+    font-family: Ubuntu-Light;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 10vh;
+    padding-top: 10vh;
+    margin-bottom: 10vh;
+  }
+  
+  @font-face {
+    font-family: "Ubuntu-Light";
+    src: local("Ubuntu-Light"),
+      url("../../../fonts/Ubuntu-Light.ttf") format("truetype");
+  }
+  
