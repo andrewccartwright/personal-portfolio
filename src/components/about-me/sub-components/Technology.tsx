@@ -1,6 +1,7 @@
 import TechImage from "./TechImage";
 import '../../../css/about-me/sub-components/Technology.css';
 
+import typescriptLogo from '../../../images/technologies/typescript.png';
 import bootstrapLogo from '../../../images/technologies/bootstrap-logo.png';
 import cLogo from '../../../images/technologies/c-logo.png';
 import d3Logo from '../../../images/technologies/d3-logo.png';
@@ -12,7 +13,6 @@ import jQueryLogo from '../../../images/technologies/jQuery-logo.png';
 import mongodbLogo from '../../../images/technologies/mongodb-logo.png';
 import nodeLogo from '../../../images/technologies/node-logo.png';
 import reactLogo from '../../../images/technologies/react-logo.png';
-import reduxLogo from '../../../images/technologies/redux-logo.svg';
 import vueLogo from '../../../images/technologies/vue-logo.png';
 import sqlLogo from '../../../images/technologies/sql-logo.png';
 import dockerLogo from '../../../images/technologies/docker.png';
@@ -21,10 +21,16 @@ import jiraLogo from '../../../images/technologies/jira.png';
 
 const imgs: {src: string, alt: string, label: string}[] = [
     {
-        src: bootstrapLogo, alt:'bootstrap', label:'Bootstrap'
+        src: typescriptLogo, alt: 'TypeScript Logo', label: 'TypeScript'
     },
     {
-        src: cLogo, alt: 'c Logo', label: 'C++'
+        src: javaLogo, alt: 'Java Logo', label: 'Java'
+    },
+    {
+        src: cLogo, alt: 'C++ Logo', label: 'C++'
+    },
+    {
+        src: sqlLogo, alt: 'SQL Logo', label: 'SQL'
     },
     {
         src: d3Logo, alt: 'd3 Logo', label: 'D3'
@@ -39,10 +45,10 @@ const imgs: {src: string, alt: string, label: string}[] = [
         src: htmlLogo, alt: 'HTML Logo', label: 'HTML5'
     },
     {
-        src: javaLogo, alt: 'Java Logo', label: 'Java'
+        src: jQueryLogo, alt: 'jQuery Logo', label: 'JQuery'
     },
     {
-        src: jQueryLogo, alt: 'jQuery Logo', label: 'JQuery'
+        src: bootstrapLogo, alt:'Bootstrap Logo', label:'Bootstrap'
     },
     {
         src: mongodbLogo, alt: 'MongoDB Logo', label: 'MongoDB'
@@ -54,13 +60,7 @@ const imgs: {src: string, alt: string, label: string}[] = [
         src: reactLogo, alt: 'React Logo', label: 'React'
     },
     {
-        src: reduxLogo, alt: 'Redux Logo', label: 'Redux'
-    },
-    {
         src: vueLogo, alt: 'Vue Logo', label: 'Vue'
-    },
-    {
-        src: sqlLogo, alt: 'SQL Logo', label: 'SQL'
     },
     {
         src: dockerLogo, alt: 'Docker Logo', label: 'Docker'
