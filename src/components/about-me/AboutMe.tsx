@@ -31,10 +31,10 @@ const AboutMe = (props: {}) => {
                 <br />
                 Since graduating from SUU in December 2020, I have dedicated free time each week to strengthening my coding skills and learning new technologies.
                 I have completed certifications through FreeCodeCamp in Responsive Web Design, JavaScript Algorithms and Data Structures, Front End Development
-                Libraries, and APIs and Microservices.
+                Libraries, and APIs and Microservices. I have also completed the Backend Engineer Career Path through Codecademy to increase my abilities working on the back end.
                 <br />
                 <br />
-                I am currently working on completing the Backend Engineer career path through Codecademy to increase my abilities working on the back end. I am constantly striving to learn new technologies and expand my skillset as a developer.
+                I am currently working as a Technical Support Analyst at Addepar, which has allowed me to work closely with developer teams, troubleshoot product issues and, when necessary, file bug tickets, and write/modify Python scripts. I am constantly striving to learn new technologies and expand my skillset as a developer.
                 Please check out my projects <Link to="/projects">here</Link> and let me know what you think!
                 </p>            
             </div>
