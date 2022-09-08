@@ -5,10 +5,17 @@ import snake from '../../images/project-images/snake.png';
 import spotify from '../../images/project-images/spotify.png';
 import statsCalculator from '../../images/project-images/Stats-Calculator.png';
 import weatherApp from '../../images/project-images/weather-app.png';
+import googleClone from '../../images/project-images/google-clone.png';
 import Project from './Project';
 import '../../css/projects/Projects.css';
 
 const projects: {src: string, link: string, name: string, description: string}[] = [
+    {
+        src: googleClone,
+        link: 'https://andrewchatch.github.io/google-clone/',
+        name: 'Google Clone',
+        description: 'As a front-end project, I created a clone of the Google homepage. I am currently working on adding search functionality using the Google Search API. Created using React and TypeScript.'
+    },
     {
         src: spotify,
         link: 'https://github.com/andrewchatch/react-web-player-for-spotify',
