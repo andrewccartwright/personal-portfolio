@@ -16,12 +16,12 @@ const projects: {src: string, link: string, name: string, description: string}[]
         name: 'Google Clone',
         description: 'As a front-end project, I created a clone of the Google homepage. I have built out the general search functionality using the Google Search API, but am currently working on integrating specialized search functionality (image-specific search, etc). Created using React and TypeScript.'
     },
-    {
-        src: spotify,
-        link: 'https://github.com/andrewchatch/react-web-player-for-spotify',
-        name: 'Web Player for Spotify',
-        description: 'A clone of the Spotify web player built using React on the frontend and Node.js, Express, and Passport on the backend for authentication.'
-    },
+    // {
+    //     src: spotify,
+    //     link: 'https://github.com/andrewchatch/react-web-player-for-spotify',
+    //     name: 'Web Player for Spotify',
+    //     description: 'A clone of the Spotify web player built using React on the frontend and Node.js, Express, and Passport on the backend for authentication.'
+    // },
     {
         src: statsCalculator,
         link: 'https://andrewchatch.github.io/statistics-calculator/',
@@ -29,11 +29,17 @@ const projects: {src: string, link: string, name: string, description: string}[]
         description: 'A statistics calculator created using Vue.js. Users can compute summary statistics, Z-scores, T-scores, and compute probabilities in the Binomial, Poisson, and Geometric Distributions. Completed in April 2021.'
     },
     {
-        src: budgetApp,
-        link: 'https://andrewchatch.github.io/personal-budget/',
-        name: 'Personal Budget App',
-        description: 'A budgeting app created using the PERN stack. Users can add, edit, and delete expenses and income line items. Data is stored in a Postgres database.'
+        src: snake,
+        link: 'https://andrewchatch.github.io/snake-game/',
+        name: 'Snake Game',
+        description: 'A simple snake game created using vanilla JavaScript.'
     },
+    // {
+    //     src: budgetApp,
+    //     link: 'https://andrewchatch.github.io/personal-budget/',
+    //     name: 'Personal Budget App',
+    //     description: 'A budgeting app created using the PERN stack. Users can add, edit, and delete expenses and income line items. Data is stored in a Postgres database.'
+    // },
     {
         src: calculator,
         link: 'https://andrewchatch.github.io/JavaScript-Calculator/',
@@ -45,12 +51,6 @@ const projects: {src: string, link: string, name: string, description: string}[]
         link: 'https://andrewchatch.github.io/quote-generator-frontend/',
         name: 'Quote Generator',
         description: 'A quote generator app built using the PERN stack. The backend is hosted on Heroku and references a Heroku Postgres database where the quotes are stored.'
-    },
-    {
-        src: snake,
-        link: 'https://andrewchatch.github.io/snake-game/',
-        name: 'Snake Game',
-        description: 'A simple snake game created using vanilla JavaScript.'
     },
     {
         src: weatherApp,
