@@ -12,7 +12,7 @@ import '../../css/projects/Projects.css';
 const projects: {src: string, link: string, name: string, description: string}[] = [
     {
         src: googleClone,
-        link: 'https://andrewchatch.github.io/google-clone/',
+        link: 'https://github.com/andrewchatch/google-clone',
         name: 'Google Clone',
         description: 'As a front-end project, I created a clone of the Google homepage. I have built out the general search functionality using the Google Search API, but am currently working on integrating specialized search functionality (image-specific search, etc). Created using React and TypeScript.'
     },
