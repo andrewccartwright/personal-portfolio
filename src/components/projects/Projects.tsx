@@ -3,6 +3,7 @@ import calculator from '../../images/project-images/Calculator.png';
 import quote from '../../images/project-images/quote.png';
 import snake from '../../images/project-images/snake.png';
 import spotify from '../../images/project-images/spotify.png';
+import quasigroups from '../../images/project-images/quasigroups.png';
 import statsCalculator from '../../images/project-images/Stats-Calculator.png';
 import weatherApp from '../../images/project-images/weather-app.png';
 import googleClone from '../../images/project-images/google-clone.png';
@@ -10,6 +11,12 @@ import Project from './Project';
 import '../../css/projects/Projects.css';
 
 const projects: {src: string, link: string, name: string, description: string}[] = [
+    {
+        src: quasigroups,
+        link: 'https://andrewchatch.github.io/quasigroups',
+        name: 'Isomorphisms and Permutations of Quasigroups',
+        description: `In my last year of undergrad, I completed a research project looking at the properties of quasigroups of order 5. At the time, I created a small program in C++ to check for isomorphism and to perform permutations on the elements of the quasigroup. I recently created this site so that I could host this project publicly.`
+    },
     {
         src: googleClone,
         link: 'https://github.com/andrewchatch/google-clone',
