@@ -1,12 +1,11 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.c7f5a6c0.css",
-    "main.js": "/personal-portfolio/static/js/main.86dda550.js",
+    "main.js": "/personal-portfolio/static/js/main.2710ddcd.js",
     "static/js/787.fb771931.chunk.js": "/personal-portfolio/static/js/787.fb771931.chunk.js",
     "static/media/google-clone.png": "/personal-portfolio/static/media/google-clone.d98ac1dbcbefbb61e1b5.png",
     "static/media/quasigroups.png": "/personal-portfolio/static/media/quasigroups.7b34d5f759e194382382.png",
     "static/media/profile-pic.jpg": "/personal-portfolio/static/media/profile-pic.b79bc605d5558e112fa9.jpg",
-    "static/media/quote.png": "/personal-portfolio/static/media/quote.5dfd271c62943a13daa1.png",
     "static/media/Ubuntu-Light.ttf": "/personal-portfolio/static/media/Ubuntu-Light.c2bf1bb61db6c8149ae8.ttf",
     "static/media/Ubuntu-Medium.ttf": "/personal-portfolio/static/media/Ubuntu-Medium.90c045b7547db9275807.ttf",
     "static/media/Montserrat-Medium.ttf": "/personal-portfolio/static/media/Montserrat-Medium.e2d60bc49517598c0ce8.ttf",
@@ -27,11 +26,11 @@
     "static/media/html5.svg": "/personal-portfolio/static/media/html5.02c11ebc3bf614b206106cbe9cba90fd.svg",
     "index.html": "/personal-portfolio/index.html",
     "main.c7f5a6c0.css.map": "/personal-portfolio/static/css/main.c7f5a6c0.css.map",
-    "main.86dda550.js.map": "/personal-portfolio/static/js/main.86dda550.js.map",
+    "main.2710ddcd.js.map": "/personal-portfolio/static/js/main.2710ddcd.js.map",
     "787.fb771931.chunk.js.map": "/personal-portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c7f5a6c0.css",
-    "static/js/main.86dda550.js"
+    "static/js/main.2710ddcd.js"
   ]
 }
