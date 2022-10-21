@@ -7,10 +7,17 @@ import quasigroups from '../../images/project-images/quasigroups.png';
 import statsCalculator from '../../images/project-images/Stats-Calculator.png';
 import weatherApp from '../../images/project-images/weather-app.png';
 import googleClone from '../../images/project-images/google-clone.png';
+import tetris from '../../images/project-images/tetris.png';
 import Project from './Project';
 import '../../css/projects/Projects.css';
 
 const projects: {src: string, link: string, name: string, description: string}[] = [
+    {
+        src: tetris,
+        link: "https://github.com/andrewchatch/tetris_game",
+        name: 'Tetris',
+        description: 'This is a Java-based Tetris game built using JavaFX, Spring Boot, and Apache Maven. I had a lot of fun building this game and hope you enjoy it as well if you give it a try!'
+    },
     {
         src: quasigroups,
         link: 'https://andrewchatch.github.io/quasigroups',
@@ -53,12 +60,12 @@ const projects: {src: string, link: string, name: string, description: string}[]
         name: 'JavaScript Calculator',
         description: 'A simple calculator created using React-Redux.'
     },
-    {
-        src: quote,
-        link: 'https://andrewchatch.github.io/quote-generator-frontend/',
-        name: 'Quote Generator',
-        description: 'A quote generator app built using the PERN stack. The backend is hosted on Heroku and references a Heroku Postgres database where the quotes are stored.'
-    },
+    // {
+    //     src: quote,
+    //     link: 'https://andrewchatch.github.io/quote-generator-frontend/',
+    //     name: 'Quote Generator',
+    //     description: 'A quote generator app built using the PERN stack. The backend is hosted on Heroku and references a Heroku Postgres database where the quotes are stored.'
+    // },
     {
         src: weatherApp,
         link: 'https://andrewchatch.github.io/weather/',
