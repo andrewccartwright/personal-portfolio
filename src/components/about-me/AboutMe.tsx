@@ -11,7 +11,7 @@ const AboutMe = (props: {}) => {
 
             <div id="about-me" className="text-center">
                 <h1 id="about-me-title">About Me</h1>
-                <p className="text-left about-me-summary">I am a recent graduate with
+                <p className="text-left about-me-summary">I am currently working as a Technical Support Analyst at Addepar. I have
                 a strong background in mathematics and a passion for problem-solving.
                 I thrive on the challenge of learning new technologies quickly and strive
                 to continually improve my abilities as a developer.
