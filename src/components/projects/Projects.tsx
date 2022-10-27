@@ -1,8 +1,9 @@
-import budgetApp from '../../images/project-images/budget-app.png';
+// import budgetApp from '../../images/project-images/budget-app.png';
+import proration from '../../images/project-images/proration.png';
 import calculator from '../../images/project-images/Calculator.png';
-import quote from '../../images/project-images/quote.png';
+// import quote from '../../images/project-images/quote.png';
 import snake from '../../images/project-images/snake.png';
-import spotify from '../../images/project-images/spotify.png';
+// import spotify from '../../images/project-images/spotify.png';
 import quasigroups from '../../images/project-images/quasigroups.png';
 import statsCalculator from '../../images/project-images/Stats-Calculator.png';
 import weatherApp from '../../images/project-images/weather-app.png';
@@ -17,6 +18,12 @@ const projects: {src: string, link: string, name: string, description: string}[]
         link: "https://github.com/andrewchatch/tetris_game",
         name: 'Tetris',
         description: 'This is a Java-based Tetris game built using JavaFX, Spring Boot, and Apache Maven. I had a lot of fun building this game and hope you enjoy it as well if you give it a try!'
+    },
+    {
+        src: proration,
+        link: 'https://andrewchatch.github.io/proration-tool/',
+        name: 'Proration Tool',
+        description: 'This tool can be used to calculate prorated invoice amounts by entering dates, number of users, and price per user.'
     },
     {
         src: quasigroups,
