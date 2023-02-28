@@ -1,10 +1,14 @@
 #welcome-section {
     margin-top: 40vh;
-    width: 80%;
+    width: 75vw;
+    height: 40vh;
+    max-height: 100%;
     font-size: 14px;
     margin-left: 15vw;
     margin-bottom: 20vh;
     color: white;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 #welcome-title {
@@ -21,7 +25,7 @@
 #welcome-summary {
     font-family: Ubuntu-Light;
     width: 60vw;
-    max-width: 300px;
+    /* max-width: 300px; */
 }
   
 #projects-link {
@@ -62,6 +66,7 @@
 @media (max-width: 500px) {
     #welcome-section {
       margin-top: 30vh;
+      height: 55vh;
       margin-bottom: 15vh;
     }
 }
