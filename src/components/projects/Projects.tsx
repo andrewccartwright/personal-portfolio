@@ -14,6 +14,12 @@ import '../../css/projects/Projects.css';
 
 const projects: {src: string, link: string, name: string, description: string}[] = [
     {
+        src: statsCalculator,
+        link: 'http://statisticscalculator-env.eba-bk69bqmi.us-west-2.elasticbeanstalk.com/#/',
+        name: 'Statistics Calculator',
+        description: 'A statistics calculator created using Spring Boot, React, and TypeScript. It can be used to calculate summary statistics and probability distributions. Hosted on AWS using Elastic Beanstalk.'
+    },
+    {
         src: tetris,
         link: "https://github.com/andrewchatch/tetris_game",
         name: 'Tetris',
@@ -43,12 +49,6 @@ const projects: {src: string, link: string, name: string, description: string}[]
     //     name: 'Web Player for Spotify',
     //     description: 'A clone of the Spotify web player built using React on the frontend and Node.js, Express, and Passport on the backend for authentication.'
     // },
-    {
-        src: statsCalculator,
-        link: 'https://andrewchatch.github.io/statistics-calculator/',
-        name: 'Statistics Calculator',
-        description: 'A statistics calculator created using Vue.js. Users can compute summary statistics, Z-scores, T-scores, and compute probabilities in the Binomial, Poisson, and Geometric Distributions. Completed in April 2021.'
-    },
     {
         src: snake,
         link: 'https://andrewchatch.github.io/snake-game/',

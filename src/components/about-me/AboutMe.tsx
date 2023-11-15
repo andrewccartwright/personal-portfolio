@@ -34,7 +34,7 @@ const AboutMe = (props: {}) => {
                 Libraries, and APIs and Microservices. I have also completed the Backend Engineer Career Path through Codecademy to increase my abilities working on the back end.
                 <br />
                 <br />
-                I am currently working as a Technical Support Analyst at Addepar, which has allowed me to work closely with developer teams, troubleshoot product issues and, when necessary, file bug tickets. I have also been able to write/modify Python scripts. I am constantly striving to learn new technologies and expand my skillset as a developer.
+                My time at Addepar has allowed me to work closely with developer teams, troubleshoot product issues and, when necessary, file bug tickets. I have also been able to write/modify Python scripts. I am constantly striving to learn new technologies and expand my skillset as a developer.
                 Please check out my projects <Link to="/projects">here</Link> and let me know what you think!
                 </p>            
             </div>
