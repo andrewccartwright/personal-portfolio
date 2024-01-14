@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.b2a5537a.css",
+    "main.css": "/personal-portfolio/static/css/main.8ec0a6de.css",
     "main.js": "/personal-portfolio/static/js/main.d29de9a1.js",
     "static/js/787.fb771931.chunk.js": "/personal-portfolio/static/js/787.fb771931.chunk.js",
     "static/media/tetris.png": "/personal-portfolio/static/media/tetris.f04fe86cf88e662303bd.png",
     "static/media/proration.png": "/personal-portfolio/static/media/proration.7c6b2328849397be8cb0.png",
     "static/media/google-clone.png": "/personal-portfolio/static/media/google-clone.d98ac1dbcbefbb61e1b5.png",
     "static/media/quasigroups.png": "/personal-portfolio/static/media/quasigroups.7b34d5f759e194382382.png",
-    "static/media/profile-pic.jpg": "/personal-portfolio/static/media/profile-pic.b79bc605d5558e112fa9.jpg",
+    "static/media/profile-pic.jpg": "/personal-portfolio/static/media/profile-pic.ba97145d12be9d8aab1f.jpg",
     "static/media/Stats-Calculator.png": "/personal-portfolio/static/media/Stats-Calculator.25c2b78707255dcabe98.png",
     "static/media/Ubuntu-Light.ttf": "/personal-portfolio/static/media/Ubuntu-Light.c2bf1bb61db6c8149ae8.ttf",
     "static/media/Ubuntu-Medium.ttf": "/personal-portfolio/static/media/Ubuntu-Medium.90c045b7547db9275807.ttf",
@@ -27,12 +27,12 @@
     "static/media/jira.png": "/personal-portfolio/static/media/jira.4ed1e56294cedcad4494.png",
     "static/media/html5.svg": "/personal-portfolio/static/media/html5.02c11ebc3bf614b206106cbe9cba90fd.svg",
     "index.html": "/personal-portfolio/index.html",
-    "main.b2a5537a.css.map": "/personal-portfolio/static/css/main.b2a5537a.css.map",
+    "main.8ec0a6de.css.map": "/personal-portfolio/static/css/main.8ec0a6de.css.map",
     "main.d29de9a1.js.map": "/personal-portfolio/static/js/main.d29de9a1.js.map",
     "787.fb771931.chunk.js.map": "/personal-portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2a5537a.css",
+    "static/css/main.8ec0a6de.css",
     "static/js/main.d29de9a1.js"
   ]
 }
