@@ -11,11 +11,14 @@ const AboutMe = (props: {}) => {
 
             <div id="about-me" className="text-center">
                 <h1 id="about-me-title">About Me</h1>
-                <p className="text-left about-me-summary">I am currently working as a Technical Support Analyst at Addepar. I have
+                <p className="text-left about-me-summary">I am currently working as a Backend Engineer at Addepar. I have
                 a strong background in mathematics and a passion for problem-solving.
                 I thrive on the challenge of learning new technologies quickly and strive
                 to continually improve my abilities as a developer.
                 In my free time, I enjoy playing the guitar, reading, and cooking.
+                <br />
+                <br />
+                As a seasoned Software Engineer based in Salt Lake City, UT, I bring a wealth of technical expertise, a strong work ethic, and a passion for software development to every project I undertake. With a focus on enhancing team success, I excel in meticulous work, demonstrate keen attention to detail, and leverage outstanding organizational abilities. Proficient in a variety of programming languages including Java, Python, C++, SQL, and TypeScript (React, Node.js, Express), I am well-versed in object-oriented programming and software design principles.
                 <br />
                 <br />
                 My journey with coding began about 10 years ago when I took a Web Programming class while still in high school in Colorado.
@@ -34,7 +37,7 @@ const AboutMe = (props: {}) => {
                 Libraries, and APIs and Microservices. I have also completed the Backend Engineer Career Path through Codecademy to increase my abilities working on the back end.
                 <br />
                 <br />
-                My time at Addepar has allowed me to work closely with developer teams, troubleshoot product issues and, when necessary, file bug tickets. I have also been able to write/modify Python scripts. I am constantly striving to learn new technologies and expand my skillset as a developer.
+                I am committed to ongoing learning and advancement in the rapidly evolving software development landscape, fueled by a genuine passion for the field.
                 Please check out my projects <Link to="/projects">here</Link> and let me know what you think!
                 </p>            
             </div>
