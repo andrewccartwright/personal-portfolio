@@ -13,12 +13,12 @@ import Project from './Project';
 import '../../css/projects/Projects.css';
 
 const projects: {src: string, link: string, name: string, description: string}[] = [
-    {
-        src: statsCalculator,
-        link: 'http://statisticscalculator-env.eba-bk69bqmi.us-west-2.elasticbeanstalk.com/#/',
-        name: 'Statistics Calculator',
-        description: 'A statistics calculator created using Spring Boot, React, and TypeScript. It can be used to calculate summary statistics and probability distributions. Hosted on AWS using Elastic Beanstalk.'
-    },
+    // {
+    //     src: statsCalculator,
+    //     link: 'http://statisticscalculator-env.eba-bk69bqmi.us-west-2.elasticbeanstalk.com/#/',
+    //     name: 'Statistics Calculator',
+    //     description: 'A statistics calculator created using Spring Boot, React, and TypeScript. It can be used to calculate summary statistics and probability distributions. Hosted on AWS using Elastic Beanstalk.'
+    // },
     {
         src: tetris,
         link: "https://github.com/andrewchatch/tetris_game",
