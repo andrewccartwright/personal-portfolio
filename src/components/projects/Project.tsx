@@ -10,7 +10,7 @@ const Project = (props: {obj: {src: string, link: string, name: string, descript
           </a>
           <p className="project-description text-center">{description}</p>
 
-          { link === 'https://andrewchatch.github.io/quasigroups' && 
+          { link === 'https://andrewccartwright.github.io/quasigroups' && 
             <p> You can read more about quasigroups&nbsp;
               <a href='https://en.wikipedia.org/wiki/Quasigroup#:~:text=In%20mathematics%2C%20especially%20in%20abstract,not%20have%20an%20identity%20element.' target='_blank'>
                 here
