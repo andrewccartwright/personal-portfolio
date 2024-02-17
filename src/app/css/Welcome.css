@@ -5,7 +5,7 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background: linear-gradient(180deg, rgb(24,100,18) 10%, rgb(1, 143, 74));
+    background: linear-gradient(180deg, black 15%, rgb(1, 143, 74));
 }
 
 #welcome-section {
