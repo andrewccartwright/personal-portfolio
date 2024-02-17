@@ -1,19 +1,11 @@
 'use client'
 
 import Link from "next/link";
-import { useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import '../css/Welcome.css';
 
 const Welcome = (props: {}) => {
-    // const body = document.getElementById('body');
-
-    // useEffect(() => {
-    //     if (body != null) {
-    //         body.style.background = 'linear-gradient(180deg, #000000 5%, rgb(60,60,60))';
-    //     }
-    // }, [body])
 
     const animationEnd = (event: React.AnimationEvent) => {
         console.log(event);
