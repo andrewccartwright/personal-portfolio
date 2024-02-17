@@ -2,7 +2,7 @@ import Projects from "./components/Projects";
 
 const ProjectsPage = (props: {}) => {
     return (
-        <div>
+        <div id="project-container">
             <Projects />
         </div>
     )
