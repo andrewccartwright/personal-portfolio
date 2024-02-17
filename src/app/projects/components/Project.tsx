@@ -7,7 +7,7 @@ const Project = (props: {project: ProjectData}) => {
     return (
         <div className="project">
           <a className="project-links" href={link} target="_blank" rel="noreferrer">
-            <Image src={src} alt={name} className="project-img" />
+            <Image src={src} alt={name} className="project-img" priority={true} />
             <div className="project-img-label text-center">{name}</div>
           </a>
           <p className="project-description text-center">{description}</p>
