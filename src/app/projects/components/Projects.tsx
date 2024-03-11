@@ -13,7 +13,7 @@ const projects: ProjectData[] = [
         src: hjCartwright,
         link: "https://hjcartwright.com",
         name: "HJ Cartwright - Author Website",
-        description: "I created a dynamic and visually engaging website for my wife to market and promote their literary works. (Side note -- her books are incredible, check them out!). The primary goal is to establish an online platform that not only showcases her books but also provides a seamless and enjoyable experience for visitors, encouraging book exploration and sales."
+        description: "I created a dynamic and visually engaging website for my wife to market and promote her literary works. (Side note -- her books are incredible, check them out!). The primary goal is to establish an online platform that not only showcases her books but also provides a seamless and enjoyable experience for visitors, encouraging book exploration and sales."
     },
     {
         src: tetris,
