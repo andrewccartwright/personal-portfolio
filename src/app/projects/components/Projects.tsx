@@ -4,10 +4,17 @@ import tetris from '../../assets/images/project-images/tetris.png';
 import proration from '../../assets/images/project-images/proration.png';
 import quasigroups from '../../assets/images/project-images/quasigroups.png';
 import snake from '../../assets/images/project-images/snake.png';
+import hjCartwright from '../../assets/images/project-images/hj-cartwright.png';
 import Project from "./Project";
 import '../../css/projects/Projects.css';
 
 const projects: ProjectData[] = [
+    {
+        src: hjCartwright,
+        link: "https://hjcartwright.com",
+        name: "HJ Cartwright - Author Website",
+        description: "I created a dynamic and visually engaging website for my wife to market and promote their literary works. (Side note -- her books are incredible, check them out!). The primary goal is to establish an online platform that not only showcases her books but also provides a seamless and enjoyable experience for visitors, encouraging book exploration and sales."
+    },
     {
         src: tetris,
         link: "https://github.com/andrewccartwright/tetris_game",
