@@ -6,7 +6,7 @@ import Technology from './components/Technology';
 
 const AboutMe = (props: {}) => {
     return (
-        <div>
+        <div id="about-me-page">
             <div id="profile-pic"></div>
 
             <div id="about-me" className="text-center">
