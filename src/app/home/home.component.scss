@@ -1,0 +1,73 @@
+#home-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, black 15%, rgb(1, 143, 74));
+}
+
+#welcome-section {
+    margin-top: 40vh;
+    width: 75vw;
+    max-height: 100%;
+    font-size: 14px;
+    margin-left: 15vw;
+    margin-bottom: 20vh;
+    color: white;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#welcome-title {
+    margin-top: 15vh;
+    font-family: monospace;
+    font-size: 3em;
+}
+
+#welcome-intro {
+    font-family: monospace;
+    font-size: 1.5em;
+}
+
+#welcome-summary {
+    font-family: Ubuntu-Light;
+    width: 60vw;
+}
+  
+#projects-link {
+    font-family: Ubuntu-Light;
+}
+  
+#button-link {
+    border: 2px solid white;
+    background: none;
+    color: white;
+}
+  
+@media (min-width: 700px) {
+    #welcome-section {
+      margin-left: 22vw;
+    }
+}
+  
+@media (max-width: 500px) {
+    #welcome-section {
+      margin-top: 30vh;
+      height: 55vh;
+      margin-bottom: 15vh;
+    }
+}
+  
+@font-face {
+    font-family: "Boogaloo-Regular";
+    src: local("Boogaloo-Regular"),
+      url("/fonts/Boogaloo-Regular.ttf") format("truetype");
+}
+  
+@font-face {
+    font-family: "Ubuntu-Light";
+    src: local("Ubuntu-Light"),
+      url("/fonts/Ubuntu-Light.ttf") format("truetype");
+}

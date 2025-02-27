@@ -1,0 +1,13 @@
+#edu-section {
+    width: 60vw;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+@media (max-width: 850px) {
+    #edu-section {
+        width: 90%;
+    }
+}

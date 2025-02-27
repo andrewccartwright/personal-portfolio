@@ -1,0 +1,56 @@
+#tech-section {
+    margin-bottom: 50px;
+    width: 60vw;
+    max-width: 900px;
+    margin-top: 5vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Ubuntu-Light;
+}
+  
+.img-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 25vh;
+    margin-bottom: 7vh;
+}
+  
+#tech-intro {
+    margin-bottom: 10vh;
+    font-size: 26px;
+}
+  
+#tech-imgs {
+    margin-top: 20vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+  
+.img-responsive {
+    padding: 1vh;
+    max-width: 100px;
+    min-width: 55px;
+}
+  
+.img-label {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    font-size: 14px;
+}
+
+@media (max-width: 850px) {
+    #tech-section {
+        width: 80%;
+    }
+}
+  
+@font-face {
+    font-family: "Ubuntu-Light";
+    src: local("Ubuntu-Light"),
+      url("/fonts/Ubuntu-Light.ttf") format("truetype");
+}
+  

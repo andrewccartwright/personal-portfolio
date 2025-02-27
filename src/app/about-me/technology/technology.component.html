@@ -1,0 +1,9 @@
+<div id="tech-section" class="text-center">
+    <!-- <h2 id='tech-intro'>I have experience working with the following technologies:</h2> -->
+
+    <div>
+        <div id='tech-imgs'>
+            <app-tech-image *ngFor="let img of images; index as i" [src]="img.src" [alt]="img.alt" [label]="img.label"></app-tech-image>
+        </div>
+    </div>
+</div>

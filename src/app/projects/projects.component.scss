@@ -1,0 +1,93 @@
+#projects {
+    margin-top: 12vh;
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.project-section {
+    display: flex;
+    margin-top: 20vh;
+    font-family: Ubuntu-Light;
+    font-size: 16px;
+}
+  
+#projects-intro {
+    margin-top: 16vh;
+    margin-bottom: 7vh;
+}
+  
+#projects-title {
+    font-size: 2em;
+    font-family: Ubuntu-Light;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vh;
+}
+
+#project-list {
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+.project {
+    margin-bottom: 50px;
+}
+  
+.project-img {
+    max-width: 600px;
+    width: 60vw;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-links, .project-links:active, .project-links:hover, .project-links:active:hover {
+    text-decoration: none;
+    color: white;
+}
+  
+.project-img-label {
+    text-decoration: none;
+    padding: 10px;
+    max-width: 300px;
+    background-color: black;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-weight: 800;
+    font-size: 1em;
+    border-radius: 20px;
+    font-family: Ubuntu-Medium;
+}
+  
+.project-description {
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Ubuntu-Light';
+}
+
+@media (max-width: 600px) {
+    #projects-intro {
+        font-size: 24px;
+    }
+}
+  
+@font-face {
+    font-family: "Ubuntu-Light";
+    src: local("Ubuntu-Light"),
+      url("/fonts/Ubuntu-Light.ttf") format("truetype");
+}
+  
+@font-face {
+    font-family: "Ubuntu-Medium";
+    src: local("Ubuntu-Medium"),
+      url("/fonts/Ubuntu-Medium.ttf") format("truetype");
+}
+  

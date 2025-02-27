@@ -1,0 +1,7 @@
+<div class="project">
+    <a class="project-links" [href]="project?.link" target="_blank" rel="noreferrer">
+      <img [src]="project?.src" [alt]="project?.name" class="project-img" priority={true} />
+      <div class="project-img-label text-center">{{project?.name}}</div>
+    </a>
+    <p class="project-description text-center">{{project?.description}}</p>
+</div>

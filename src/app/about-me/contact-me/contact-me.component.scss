@@ -1,0 +1,31 @@
+#contact-me-section {
+    font-family: Ubuntu-Light;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
+    padding-top: 2vh;
+    margin-bottom: 10vh;
+}
+
+.contact-link-container {
+  background-color: rgb(1, 143, 74);
+  width: 30vw;
+  padding: 2vh;
+  margin-top: 2vh;
+}
+
+.contact-links {
+  text-decoration: none;
+  color: white;
+}
+
+  
+@font-face {
+  font-family: "Ubuntu-Light";
+  src: local("Ubuntu-Light"),
+    url("/fonts/Ubuntu-Light.ttf") format("truetype");
+}
+  
