@@ -59,7 +59,7 @@ jobs:
           npm run build --if-present
                 
       - name: Upload artifact for deployment job
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v3
         with:
           name: github-pages
           path: ./dist
@@ -74,4 +74,4 @@ jobs:
     steps:
     - name: Deploy to GitHub Pages
       id: deployment
-      uses: actions/deploy-pages@v4
+      uses: actions/deploy-pages@v3
