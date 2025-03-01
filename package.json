@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --base-href /personal-portfolio/ --deploy-url /personal-portfolio/",
+    "build": "ng build --base-href /personal-portfolio/ --deploy-url https://andrewccartwright.github.io/personal-portfolio/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
