@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "personal-portfolio-angular": {
+    "personal-portfolio": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -68,10 +68,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "personal-portfolio-angular:build:production"
+              "buildTarget": "personal-portfolio:build:production"
             },
             "development": {
-              "buildTarget": "personal-portfolio-angular:build:development"
+              "buildTarget": "personal-portfolio:build:development"
             }
           },
           "defaultConfiguration": "development"

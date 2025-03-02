@@ -1,10 +1,10 @@
 {
-  "name": "personal-portfolio-angular",
+  "name": "personal-portfolio",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --base-href /personal-portfolio-angular/ --deploy-url https://andrewccartwright.github.io/personal-portfolio-angular/",
+    "build": "ng build --base-href /personal-portfolio/ --deploy-url https://andrewccartwright.github.io/personal-portfolio/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
