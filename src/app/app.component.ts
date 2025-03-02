@@ -9,5 +9,5 @@ import { NavBarComponent } from "./nav-bar/nav-bar.component";
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'personal-portfolio';
+  title = 'personal-portfolio-angular';
 }
