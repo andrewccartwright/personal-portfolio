@@ -12,8 +12,6 @@ export class TechnologyComponent {
 	images: { src: string, alt: string, label: string }[]
 
 	constructor(@Inject(APP_BASE_HREF) private baseHref: string) {
-		console.log(this.baseHref);
-
 		this.images = [
 			{
 				src: `${this.baseHref}images/technologies/java-logo.png`, alt: 'Java Logo', label: 'Java'
