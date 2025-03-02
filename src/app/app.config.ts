@@ -10,6 +10,6 @@ export const appConfig: ApplicationConfig = {
     provideZoneChangeDetection({ eventCoalescing: true }), 
     provideRouter(routes),
     provideAnimationsAsync(),
-    {provide: APP_BASE_HREF, useValue : '/personal-portfolio/'}
+    {provide: APP_BASE_HREF, useValue : '/personal-portfolio-angular/'}
   ]
 };

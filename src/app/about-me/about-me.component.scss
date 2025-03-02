@@ -47,7 +47,7 @@ body {
   
     #profile-pic {
       width: 90%;
-      background-image: url("/personal-portfolio/images/profile-pic.jpg");
+      background-image: url("/personal-portfolio-angular/images/profile-pic.jpg");
     }
   
     #about-me-summary {
@@ -75,7 +75,7 @@ body {
   
   @media (min-width: 850px) {
     #profile-pic {
-      background-image: url("/personal-portfolio/images/profile-pic.jpg");
+      background-image: url("/personal-portfolio-angular/images/profile-pic.jpg");
       /* background-position: 40% 44%; */
     }
   }
@@ -83,6 +83,6 @@ body {
   @font-face {
     font-family: "Ubuntu-Light";
     src: local("Ubuntu-Light"),
-      url("/personal-portfolio/fonts/Ubuntu-Light.ttf") format("truetype");
+      url("/personal-portfolio-angular/fonts/Ubuntu-Light.ttf") format("truetype");
   }
   
