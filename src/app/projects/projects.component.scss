@@ -9,7 +9,6 @@
 .project-section {
     display: flex;
     margin-top: 20vh;
-    font-family: Ubuntu-Light;
     font-size: 16px;
 }
   
@@ -20,7 +19,6 @@
   
 #projects-title {
     font-size: 2em;
-    font-family: Ubuntu-Light;
     width: 60%;
     margin-left: auto;
     margin-right: auto;
@@ -63,31 +61,17 @@
     font-weight: 800;
     font-size: 1em;
     border-radius: 20px;
-    font-family: Ubuntu-Medium;
 }
   
 .project-description {
     margin-top: 5vh;
     margin-left: auto;
     margin-right: auto;
-    font-family: 'Ubuntu-Light';
 }
 
 @media (max-width: 600px) {
     #projects-intro {
         font-size: 24px;
     }
-}
-  
-@font-face {
-    font-family: "Ubuntu-Light";
-    src: local("Ubuntu-Light"),
-      url("/personal-portfolio/fonts/Ubuntu-Light.ttf") format("truetype");
-}
-  
-@font-face {
-    font-family: "Ubuntu-Medium";
-    src: local("Ubuntu-Medium"),
-      url("/personal-portfolio/fonts/Ubuntu-Medium.ttf") format("truetype");
 }
   

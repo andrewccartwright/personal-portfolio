@@ -32,12 +32,7 @@
 }
 
 #welcome-summary {
-    font-family: Ubuntu-Light;
     width: 60vw;
-}
-  
-#projects-link {
-    font-family: Ubuntu-Light;
 }
   
 #button-link {
@@ -58,16 +53,4 @@
       height: 55vh;
       margin-bottom: 15vh;
     }
-}
-  
-@font-face {
-    font-family: "Boogaloo-Regular";
-    src: local("Boogaloo-Regular"),
-      url("/personal-portfolio/fonts/Boogaloo-Regular.ttf") format("truetype");
-}
-  
-@font-face {
-    font-family: "Ubuntu-Light";
-    src: local("Ubuntu-Light"),
-      url("/personal-portfolio/fonts/Ubuntu-Light.ttf") format("truetype");
 }

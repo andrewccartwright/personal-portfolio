@@ -6,7 +6,6 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    font-family: Ubuntu-Light;
 }
   
 .img-div {
@@ -46,11 +45,5 @@
     #tech-section {
         width: 80%;
     }
-}
-  
-@font-face {
-    font-family: "Ubuntu-Light";
-    src: local("Ubuntu-Light"),
-      url("/personal-portfolio/fonts/Ubuntu-Light.ttf") format("truetype");
 }
   

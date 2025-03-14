@@ -1,6 +1,7 @@
 import { APP_BASE_HREF, CommonModule } from '@angular/common';
 import { Component, Inject } from '@angular/core';
 import { TechImageComponent } from "./tech-image/tech-image.component";
+import { environment } from '../../../environments/environment';
 
 @Component({
 	selector: 'app-technology',
@@ -11,7 +12,9 @@ import { TechImageComponent } from "./tech-image/tech-image.component";
 export class TechnologyComponent {
 	images: { src: string, alt: string, label: string }[]
 
-	constructor(@Inject(APP_BASE_HREF) private baseHref: string) {
+	baseHref = environment.baseHref;
+
+	constructor() {
 		this.images = [
 			{
 				src: `${this.baseHref}images/technologies/java-logo.png`, alt: 'Java Logo', label: 'Java'

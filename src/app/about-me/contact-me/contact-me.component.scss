@@ -1,5 +1,4 @@
 #contact-me-section {
-    font-family: Ubuntu-Light;
     font-size: 16px;
     display: flex;
     flex-direction: column;
@@ -20,12 +19,5 @@
 .contact-links {
   text-decoration: none;
   color: white;
-}
-
-  
-@font-face {
-  font-family: "Ubuntu-Light";
-  src: local("Ubuntu-Light"),
-    url("/personal-portfolio/fonts/Ubuntu-Light.ttf") format("truetype");
 }
   

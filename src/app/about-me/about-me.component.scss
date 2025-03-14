@@ -1,10 +1,8 @@
 body {
-    font-family: 'Ubuntu-Light';
     background-color: white;
 }
 
 #about-me {
-    font-family: Ubuntu-Light;
     margin-left: auto;
     margin-right: auto;
     width: 60%;
@@ -47,7 +45,6 @@ body {
   
     #profile-pic {
       width: 90%;
-      background-image: url("/personal-portfolio/images/profile-pic.jpg");
     }
   
     #about-me-summary {
@@ -72,17 +69,3 @@ body {
       width: 100%;
     }
   }
-  
-  @media (min-width: 850px) {
-    #profile-pic {
-      background-image: url("/personal-portfolio/images/profile-pic.jpg");
-      /* background-position: 40% 44%; */
-    }
-  }
-  
-  @font-face {
-    font-family: "Ubuntu-Light";
-    src: local("Ubuntu-Light"),
-      url("/personal-portfolio/fonts/Ubuntu-Light.ttf") format("truetype");
-  }
-  

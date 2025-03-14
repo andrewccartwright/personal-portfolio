@@ -26,7 +26,6 @@
     text-decoration: none;
     color: white;
     font-size: 18px;
-    font-family: Ubuntu-Light, sans-serif;
 }
 
 @font-face {
@@ -34,9 +33,3 @@
     src: local("Montserrat-Medium"),
       url("/personal-portfolio/fonts/Montserrat-Medium.ttf") format("truetype");
 }
-  
-  @font-face {
-    font-family: "Ubuntu-Light";
-    src: local("Ubuntu-Light"),
-      url("/personal-portfolio/fonts/Ubuntu-Light.ttf") format("truetype");
-}  
