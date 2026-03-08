@@ -12,4 +12,13 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
 export class HomeComponent {
   faArrowRight = faArrowRight;
 
+  constructor() {
+    const element = document.getElementById('welcome-title');
+
+    if (element) {
+      element.addEventListener('animationend', () => {
+        element.remove(); // Removes the element from the DOM completely
+      }, { once: true }); // The { once: true } option automatically removes the event listener after it runs 
+    }
+  }
 }

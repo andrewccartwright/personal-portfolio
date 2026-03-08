@@ -21,9 +21,39 @@
 }
 
 #welcome-title {
-    margin-top: 15vh;
+    margin-right: auto;
     font-family: monospace;
     font-size: 3em;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 1.5s steps(12, end) 1 normal,
+        blink 800ms steps(100, end) 3 normal forwards;
+    border-right: 3px solid white;
+}
+
+.typing {
+    margin-top: 15vh;
+    width: fit-content;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink {
+    from {
+        border-color: white;
+    }
+
+    to {
+        border-color: transparent;
+    }
 }
 
 #welcome-intro {
