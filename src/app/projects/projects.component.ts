@@ -32,6 +32,12 @@ export class ProjectsComponent {
 
     this.projects = [
       {
+        src: `${this.baseHref}images/project-images/sunny-street.png`,
+        link: 'https://sunnystreet.app',
+        name: 'Sunny Street - Charity Donation App',
+        description: 'I built the backend for a charity donation and auction management app. I handled user authentication, including passkeys, integrated with Stripe to support donations, and set up live bidding on auction items to raise money for charities. I had a wonderful time working on this meaningful project and learned a lot from the experience.'
+      },
+      {
         src: `${this.baseHref}images/project-images/hj-cartwright.png`,
         link: "https://hjcartwright.com",
         name: "HJ Cartwright - Author Website",
@@ -54,12 +60,6 @@ export class ProjectsComponent {
         link: 'https://andrewccartwright.github.io/proration-tool/',
         name: 'Proration Tool',
         description: 'This tool can be used to calculate prorated invoice amounts by entering dates, number of users, and price per user.'
-      },
-      {
-        src: `${this.baseHref}images/project-images/snake.png`,
-        link: 'https://andrewccartwright.github.io/snake-game/',
-        name: 'Snake Game',
-        description: 'A simple snake game created using vanilla JavaScript.'
       }
     ]
   }
